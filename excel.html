@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Refer</a></div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+
+
+            </ul>
+            <a href="#" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li> <a href="#" class="action_btn">Get Started</a> </li>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="here">
+            <a href="https://tinyurl.com/ygj5yg2n " target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/AngelOne.png/440px-AngelOne.png" alt="Angel One" class="angel">
+        
+            </a>
+            <h1 align="center" >Make Your Demat Acccount At Free And Earn 50% Amount Each Referal</h1>
+            <a href="https://tinyurl.com/ygj5yg2n " target="_blank">
+               <h3 class="angelone">Angel One</h3>
+               <h5 class="one">Make Your Deamat Account From Here <br> And Earn Rs250 or Gift Cards. <br>USE Referal Code:P461949 </h5>
+            </a>
+        
+            <a href="https://link.upstox.com/iNUJ" target="_blank">
+                <img src="https://tradebrains.in/wp-content/uploads/2019/09/upstox-logo.png" alt="Upstox" class="upstox">
+                
+        
+            </a>
+            <a href="https://link.upstox.com/iNUJ " target="_blank">
+                <h3 class="upstoxoi">Upstox</h3>
+                <h5 class="up">Make Your Deamat Account From Here <br> And Earn Rs250 or Gift Cards. </h5>
+             </a>
+             <a href="https://secure.icicidirect.com/accountopening?rfrlcode=8506463086&utm_source=referral&utm_medium=referral&utm_campaign=OAO2.0" target="_blank">
+                <img src="https://secure.icicidirect.com/BaseMasterPage/images/DotcomLogo2019.jpg" alt="icicid" class="icicidirect">
+             </a>
+             <a href="https://secure.icicidirect.com/accountopening?rfrlcode=8506463086&utm_source=referral&utm_medium=referral&utm_campaign=OAO2.0 " target="_blank">
+                <h3 class="icicioi">ICICI Direct</h3>
+                <h5 class="ici">Make Your Deamat Account From Here <br> And Earn Rs250 or Gift Cards. </h5>
+             </a>
+             
+
+
+        </section>
+    </main>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function(){
+            dropDownMenu.classList.toggle('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            :'fa-solid fa-bars'
+
+        }
+
+
+    </script>
+</body>
+</html>
